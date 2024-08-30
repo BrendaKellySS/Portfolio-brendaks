@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="meusite/styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo do corpo do site */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; 
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Estilo do menu de navegação */
+        header {
+            background-color: #2c3e50; 
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #fff; 
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .menu li a:hover {
+            background: #ffcccb; /* Rosa claro ao passar o mouse */
+        }
+
+        /* Estilo do conteúdo principal */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #2c3e50; 
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Estilo do contêiner */
+        .container {
+            max-width: 1200px; /* Ajuste a largura máxima conforme necessário */
+            margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+            padding: 0 20px; /* Adiciona padding nas laterais */
+        }
+
+        /* Estilo das imagens */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Espaçamento entre as imagens */
+        }
+
+        .image-gallery img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 5px; /* Adiciona bordas arredondadas nas imagens */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="menu"> 
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobremim.html">Sobre Mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portifolio.html">Portifólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Portifólio</h1>
+            <p>Mesmo estando focada em Análise e Desenvolvimento de Sistemas, aqui estão alguns dos meus trabalhos como esteticista no embelezamento do olhar:</p>
+            <div class="image-gallery">
+                <div>
+                    <p><strong>Extensão de Cílios</strong></p>
+                    <img src="meusite/cilios.jpg" alt="Imagem do meu trabalho de cílios" class="centralizada">
+                    <img src="meusite/ciliosnat.jpg" alt="Imagem do meu trabalho de cílios" class="centralizada">
+                    <img src="meusite/ciliosgeisi.jpg" alt="Imagem do meu trabalho de cílios" class="centralizada">
+                    <img src="meusite/cilioscliente.jpg" alt="Imagem do meu trabalho de cílios" class="centralizada">
+                </div>
+                <div>
+                    <p><strong>Design de Sobrancelhas</strong></p>
+                    <img src="meusite/sobrancelhacliente.jpg" alt="Imagem do meu trabalho de sobrancelhas" class="centralizada">
+                    <img src="meusite/sobrancelhajapa.jpg" alt="Imagem do meu trabalho de sobrancelhas" class="centralizada">
+                    <img src="meusite/henna.jpg" alt="Imagem do meu trabalho de sobrancelhas" class="centralizada">
+                    <img src="meusite/sobrancelhafer.jpg" alt="Imagem do meu trabalho de sobrancelhas" class="centralizada">
+                </div>
+                <div>
+                    <p><strong>Aqui está o meu perfil de estética se tiver curiosidade em ver mais do meu capricho nos trabalhos:</strong></p>
+                    <img src="meusite/insta.jpg" alt="Imagem do meu trabalho de estética" class="centralizada">
+                    <p>Acesse no Instagram:</p>
+                    <a href="https://www.instagram.com/brendakellyestetica/" target="_blank" class="instagram-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>2024 Brenda Kelly da Silva Sant'anna.</p>
+        </div>
+    </footer>
+</body>
+</html>

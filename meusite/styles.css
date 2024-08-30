@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro quase branco */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do menu de navegação */
+header {
+    background-color: #2c3e50; /* Azul marinho acinzentado */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff; /* Letras de cor branco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu li a:hover {
+    background: #ffcccb; /* Rosa claro ao passar o mouse */
+}
+
+/* Estilo das imagens centralizadas */
+.centralizada {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2c3e50; /* Azul marinho acinzentado */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
